@@ -1,0 +1,331 @@
+<div class="header" style="margin-top:0 px;font-size:60%;">ITASUR: First Meeting</div>
+
+Introduction to applied statistics using R
+========================================================
+author: David Sichinava, Ph.D.
+date: September 23, 2020
+autosize: true
+transition: none
+css: css/style.css
+font-family: 'BPG_upper'
+<span style="font-weight:bold; font-family:BPG_upper;">First Meeting</span>
+
+
+```{r}
+```
+
+Today's meeting
+========================================================
+incremental: true
+
+- Introduction and logistics
+  - Necessary software
+  - Assessment, assignments, labs, etc.
+- Intro to `R`
+
+What we are going to learn throughout this class?
+========================================================
+incremental: true
+
+- What's the most effective way of collecting and analyzing data,
+- Will cover key principles of statistical data analysis,
+- Will get acquainted with key principles of working with `R`
+
+What would I need for this class?
+========================================================
+incremental: true
+
+- R;
+- R-studio;
+- A text editor;
+
+Class website:
+========================================================
+
+- We are going to use TSU's E-Learning system for class management, therefore, you will need to get TSU email address.
+- Instead of Facebook group, we will use Slack chat, where you'll be able to ask me questions, send feedback, share code & screenshots, etc.
+  + access it here: itasur.slack.com
+- Meanwhile, we will use my old website for distributing class materials: https://www.sichinava.ge/introstatsr/
+
+
+Class structure: 
+========================================================
+
+<img src="ico/teacher.png" alt="Drawing" style="width: 48px; vertical-align:middle;"/>  Lecture
+ 
+
+Class structure: 
+========================================================
+
+
+<img src="ico/teacher.png" alt="Drawing" style="width: 48px; vertical-align:middle;"/>  Lecture
+ 
+<img src="ico/flask-outline.png" alt="Drawing" style="width: 48px; vertical-align:middle;"/> Laboratory practice
+
+
+Class structure: 
+========================================================
+
+<img src="ico/teacher.png" alt="Drawing" style="width: 48px; vertical-align:middle;"/>  Lecture
+ 
+<img src="ico/flask-outline.png" alt="Drawing" style="width: 48px; vertical-align:middle;"/> Lab
+
+<img src="ico/open-book.png" alt="Drawing" style="width: 48px; vertical-align:middle;"/> Literature
+- Key text: Imai, K. (2015): Quantitative Social Science
+
+
+Class structure: 
+========================================================
+
+
+<img src="ico/teacher.png" alt="Drawing" style="width: 48px; vertical-align:middle;"/>  Lecture
+ 
+<img src="ico/flask-outline.png" alt="Drawing" style="width: 48px; vertical-align:middle;"/> Lab
+
+<img src="ico/open-book.png" alt="Drawing" style="width: 48px; vertical-align:middle;"/> Literature
+
+<img src="ico/book.png" alt="Drawing" style="width: 48px; vertical-align:middle;"/> Assignments
+- During the lab sessions, we will give you lab assignments which you have to submit throughout subsequent week through Dropbox link
+
+Assessment components: 
+========================================================
+
+- Attendance (5 points, detailed breakdown in syllabus)
+- Assignments (10 lab exercises * 4 points each = 40 points)
+  + It's important that I'm getting your lab assignments on time. Therefore, for each late week 1 point will be deducted from your mark. Say, you submitted one week later, then you'll get maximum 3 points instead of 3
+- Midterm exam (open book, take home assignment)
+- Final exam (conference paper)
+
+
+Documenting and replicating (social science) research
+========================================================
+
+<img src="img/excel_science.png" alt="Drawing" style="width: 600px; display: block; margin-left: auto; margin-right: auto;"/>
+
+Documenting and replicating (social science) research
+========================================================
+
+<img src="img/reproduction.png" alt="Drawing" style="width: 500px; display: block; margin-left: auto; margin-right: auto;"/>
+
+<span style="width: 100%;text-align: center; font-size:14px">Source: Baker, M. (2016): Is there a reproducibility crisis? Nature. Vol. 533.</span>
+
+Documenting and replicating (social science) research
+========================================================
+* Replicable research: producing exactly the same results that were published (say, by running the same experiment)
+* Reproducible research: ability to mirror the workflow of a particular study (by using the same dataset and running the same code)
+
+<span style="width: 100%;text-align: center; font-size:14px">Source: Marwick, B. (2014): [Reproducible Research: A primer for the social sciences](http://benmarwick.github.io/CSSS-Primer-Reproducible-Research/)</span>
+
+
+Documenting and replicating (social science) research
+========================================================
+incremental: true
+* Standards (King, 1995):
+
+> The replication standard holds that sufficient information exists with which to understand, evaluate, and build upon a prior work if a third party can replicate the results without any additional information from the author
+* Data reposotories (Dataverse @ Harvard, Figshare, Open Science Framework)
+* Version control (Git, Github, Bitbucket)
+* Preregistration (Open Science Framework, Center for Open Science, EGAP)
+
+<span style="width: 10%;text-align: center; font-size:14px">Source: Marwick, B. (2014): [Reproducible Research: A primer for the social sciences](http://benmarwick.github.io/CSSS-Primer-Reproducible-Research/)</span>
+
+Documenting and replicating the research
+========================================================
+However...
+
+> The lexicon of reproducibility to date has been multifarious and ill-defined. The causes of and remedies for what is called poor reproducibility, in any scientific field, require a clear specification of the kind of reproducibility being discussed (methods, results, or inferences), a proper understanding of how it affects knowledge claims, scientific investigation of its causes, and an improved understanding of the limitations of statistical significance as a criterion for claims
+
+<span style="width: 100%;text-align: center; font-size:14px">Goodman, S., Fanelli, D., Ioannidis, J. (2016): [What does research reproducibility mean?](http://d3ukwgt0ah4zb1.cloudfront.net/content/scitransmed/8/341/341ps12.full.pdf)</span>
+
+Benefits of documenting and replicating your research
+========================================================
+* Verification and reliability;
+* Transparency
+* Efficiency
+* Flexibility
+
+<span style="width: 100%;text-align: center; font-size:14px">Source: Marwick, B. (2014): [Reproducible Research: A primer for the social sciences](http://benmarwick.github.io/CSSS-Primer-Reproducible-Research/)</span>
+
+What happens in practice
+========================================================
+😶 We enter data in Excel or SPSS (a.k.a., მონაცემთა ბადის მომზადება)
+🤨 We clean data in Excel 
+😯 We do some data analysis in SPSS
+😴 And copy and paste results in Word
+
+What happens in practice
+========================================================
+> All these can be organized at one place, so we can always go back and re-run our analysis
+
+What happens in practice
+========================================================
+<img src="img/rr_example.png" alt="Drawing" style="width: 600px; display: block; margin-left: auto; margin-right: auto;"/>
+
+
+What happens in practice
+========================================================
+<img src="img/fes_report.png" alt="Drawing" style="width: 600px; display: block; margin-left: auto; margin-right: auto;"/>
+
+
+What could be the consequences of bad science?
+========================================================
+
+<img src="img/excel_depression.png" alt="Drawing" style="width: 600px; display: block; margin-left: auto; margin-right: auto;"/>
+
+Why should media and political communications studies bother with replication?
+========================================================
+* Replication is useful not only for scientists but practitioners. A client might be interested how did you come up with your results
+* _Think about constant kerfuffle around public opinion polls in Georgia_
+* All prestigious (and not so prestigious) political communications and political science journals now ask about complete datasets and replication materials to publish any article
+* It is just good practice
+
+Introduction to R
+====================================
+type: subsection
+
+- Introduction to R
+- R Graphic User Interface: R-Studio
+- Key elements of R-Studio
+- R-markdown documents
+- Literate programming, replicable social research and the best practice for organizing your projects
+
+What is R?: 
+========================================================
+
+<img src="img/ihge.png" alt="Drawing" style="width: 1000px; display: block; margin-left: auto; margin-right: auto;"/>
+
+
+What is R?: 
+========================================================
+
+- A programming language
+- Freely distributed
+  - GPL2-GPL3 license
+- Available for all operational systems (Windows, Mac, Linux, etc...)
+ 
+What is R?:
+========================================================
+
+<img src="img/r_screenshot.PNG" alt="Drawing" style="width: 600px; display: block; margin-left: auto; margin-right: auto;"/>
+
+
+What is R-Studio?:
+========================================================
+incremental: true
+
+* For a long time, the lack of the GUI has been labelled as a main drawback for R users
+
+* R-Studio does this job very well.
+
+What is R-Studio?:
+========================================================
+incremental: true
+
+<img src="img/Rstudio_screen.PNG" alt="Drawing" style="width: 600px; display: block; margin-left: auto; margin-right: auto;"/>
+
+
+Help: 
+========================================================
+
+```{r, eval=FALSE}
+### General help:
+help.start()
+```
+
+Help: 
+========================================================
+
+```{r, eval=FALSE}
+### Help on a particular function
+help(lm) ## or
+?lm
+
+### Show me an example!
+example(lm)
+
+
+### Show me a vignette for a funtion/library
+vignette("ggplot2-specs")
+
+```
+
+Working directory: 
+========================================================
+
+```{r, eval=FALSE}
+getwd()
+```
+
+Working directory: 
+========================================================
+
+```{r, eval=FALSE}
+setwd("D:/Dropbox/R/My awesome research")
+```
+or
+
+```{r, eval=FALSE}
+setwd("D:\\Dropbox\\R\\My awesome research")
+```
+
+or
+
+```{r, eval=FALSE}
+setwd('D:\\Dropbox\\R\\My awesome research')
+```
+
+Libraries: 
+========================================================
+
+```{r, eval=FALSE}
+install.packages("AwesomeLibrary")
+```
+
+```{r, eval=FALSE}
+library("AwesomeLibrary")
+```
+
+Scripts: 
+========================================================
+
+```{r, , eval=FALSE}
+source("MyAwesomeRegression.R")
+```
+
+R-notebook: 
+========================================================
+
+<img src="img/notebook_screen.PNG" alt="Drawing" style="width: 700px; display: block; margin-left: auto; margin-right: auto;"/>
+
+R-notebook: markup
+========================================================
+
+<img src="img/md_cs.PNG" alt="Drawing" style="width: 700px; display: block; margin-left: auto; margin-right: auto;"/>
+
+Best practices for project management
+========================================================
+
+* Transparency
+* Support
+* Organize your code as modules
+* Portability
+
+Best practices for project management
+========================================================
+
+1. Brief description of your study
+2. Installing and loading all necessary libraries
+3. Setting the absolute path from the beginning and then working using relative paths
+4. Organizing your code in sections
+5. Functions
+6. Concise naming standards for your variables
+7. Concise organization of files, folders and subfolders
+
+Best practices for project management
+========================================================
+
+<img src="img/hbling.png" alt="Drawing" style="width: 600px; display: block; margin-left: auto; margin-right: auto; margin-top: 40px;"/>
+
+========================================================
+
+<img src="img/morchakino.gif" alt="Drawing" style="width: 600px; display: block; margin-left: auto; margin-right: auto; margin-top: 40px;"/>
