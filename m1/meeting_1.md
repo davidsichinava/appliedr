@@ -1,9 +1,9 @@
-<div class="header" style="margin-top:0 px;font-size:60%;">ITASUR: First Meeting</div>
+<div class="header" style="margin-top:0 px;font-size:60%;">QRM: First Meeting</div>
 
 Introduction to applied statistics using R
 ========================================================
 author: David Sichinava, Ph.D.
-date: September 23, 2020
+date: October 7, 2022
 autosize: true
 transition: none
 css: css/style.css
@@ -20,6 +20,7 @@ incremental: true
 - Introduction and logistics
   - Necessary software
   - Assessment, assignments, labs, etc.
+- Making sure that everyone has installed `R` and `RStudio`
 - Intro to `R`
 
 What we are going to learn throughout this class?
