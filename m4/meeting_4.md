@@ -3,7 +3,7 @@
 Introduction to applied statistics using R
 ========================================================
 author: David Sichinava, Ph.D.
-date: October 21, 2020
+date: October 28, 2022
 autosize: true
 transition: none
 css: css/style.css
@@ -49,6 +49,7 @@ Card & Krueger (1994): Context
 ========================================================
 * In 1992, New Jersey decided to raise minimum wage from $4.25 to $5.05
 * Classic economic theory predicts that these circumstances reduce full-time employment as employers have less incentive to have full-time employers and pay them more.
+* Eventually, David Card went to win Nobel prize in economics in 2021, essentially for developing the method described in here...
 
 Card & Krueger (1994): Challenges
 ========================================================
