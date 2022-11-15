@@ -3,7 +3,7 @@
 Introduction to applied statistics using R
 ========================================================
 author: David Sichinava, Ph.D.
-date: October 28, 2020
+date: November 11, 2022
 autosize: true
 transition: none
 css: css/style.css
