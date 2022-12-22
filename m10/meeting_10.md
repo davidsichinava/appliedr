@@ -3,7 +3,7 @@
 Applied Statistics Using R
 ========================================================
 author: David Sichinava
-date: December 16, 2020
+date: December 22, 2022
 autosize: true
 transition: none
 css: css/style.css

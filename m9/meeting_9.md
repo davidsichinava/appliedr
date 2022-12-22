@@ -80,6 +80,9 @@ ggplot(face, aes(x=d.comp, y=diff.share)) +
                            values=c("blue", "red"))
 ```
 
+
+
+
 Linear relationship:
 ========================================================
 
